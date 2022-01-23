@@ -74,7 +74,7 @@ export default class ScrollScene extends Phaser.Scene
     );
     this.backgrounds.push(
       {
-        ratioX: 0.9, //movimiento en horizontal
+        ratioX: 1.2, //movimiento en horizontal
         sprite: this.add.tileSprite(0, 0, width, height, 'green')
           .setOrigin(0, 0)
           .setScrollFactor(0, 0)
